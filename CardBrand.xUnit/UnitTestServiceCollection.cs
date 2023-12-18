@@ -6,9 +6,25 @@ namespace CardBrand.xUnit
 {
     public class UnitTestServiceCollection
     {
+        
+        /// <summary>
+        ///     ContextOptions
+        /// </summary>
         private DbContextOptions<ApplicationDbContext> _contextOptions;
+
+        /// <summary>
+        ///     Contexto de base datos
+        /// </summary>
         private ApplicationDbContext _context;
+
+        /// <summary>
+        ///     Servicio de cardbrand
+        /// </summary>
         private CardBrandService _service;
+
+        /// <summary>
+        ///     Constructor base
+        /// </summary>
         public UnitTestServiceCollection()
         {
             _contextOptions = new DbContextConfiguration().CreateNewContextOptions();
@@ -16,6 +32,10 @@ namespace CardBrand.xUnit
             _service = new CardBrandService(_context);
         }
 
+        /// <summary>
+        ///     Prueba unitaria insert de registro
+        /// </summary>
+        /// <returns></returns>
         [Fact]
         public async Task InsertData()
         {
@@ -28,6 +48,10 @@ namespace CardBrand.xUnit
             Assert.True(entity.Id > 0);
         }
 
+        /// <summary>
+        ///     Prueba unitaria consulta de datos
+        /// </summary>
+        /// <returns></returns>
         [Fact]
         public async Task GetData()
         {
