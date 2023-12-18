@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardBrand.Api", "CardBrand.Api\CardBrand.Api.csproj", "{E7E5B076-EED4-41F5-8987-204F4D29E1D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{6ECCE1DA-088D-4F9C-B7AC-D94AA29E4EAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{40355E92-64B3-47FA-9133-D0C0E226E1CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{2DCD2662-00A6-4C2F-A397-BDF0E833161B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{A03B14C3-6627-4E7E-B8D4-D3DA5DCCC7BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardBrand.Domain", "CardBrand.Domain\CardBrand.Domain.csproj", "{DF81A9C3-1647-4136-8397-834C3DA9B6AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardBrand.Persistence", "CardBrand.Persistence\CardBrand.Persistence.csproj", "{81114A76-63FE-4DED-8835-A1A0657C08C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardBrand.Service", "CardBrand.Service\CardBrand.Service.csproj", "{FFF0A910-CFE1-421D-80C7-AA64B717839B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{9F748040-4EE8-4EB4-BA51-866F852D771D}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XUnit", "XUnit", "{62E8B4D0-8345-4EC4-A4B6-9E978EB8176A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardBrand.xUnit", "CardBrand.xUnit\CardBrand.xUnit.csproj", "{4897AA61-5325-44BA-9DBE-D7F6F3756AEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7E5B076-EED4-41F5-8987-204F4D29E1D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7E5B076-EED4-41F5-8987-204F4D29E1D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7E5B076-EED4-41F5-8987-204F4D29E1D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7E5B076-EED4-41F5-8987-204F4D29E1D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF81A9C3-1647-4136-8397-834C3DA9B6AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF81A9C3-1647-4136-8397-834C3DA9B6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF81A9C3-1647-4136-8397-834C3DA9B6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF81A9C3-1647-4136-8397-834C3DA9B6AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81114A76-63FE-4DED-8835-A1A0657C08C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81114A76-63FE-4DED-8835-A1A0657C08C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81114A76-63FE-4DED-8835-A1A0657C08C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81114A76-63FE-4DED-8835-A1A0657C08C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFF0A910-CFE1-421D-80C7-AA64B717839B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF0A910-CFE1-421D-80C7-AA64B717839B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF0A910-CFE1-421D-80C7-AA64B717839B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF0A910-CFE1-421D-80C7-AA64B717839B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4897AA61-5325-44BA-9DBE-D7F6F3756AEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4897AA61-5325-44BA-9DBE-D7F6F3756AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4897AA61-5325-44BA-9DBE-D7F6F3756AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4897AA61-5325-44BA-9DBE-D7F6F3756AEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E7E5B076-EED4-41F5-8987-204F4D29E1D6} = {6ECCE1DA-088D-4F9C-B7AC-D94AA29E4EAE}
+		{DF81A9C3-1647-4136-8397-834C3DA9B6AA} = {40355E92-64B3-47FA-9133-D0C0E226E1CD}
+		{81114A76-63FE-4DED-8835-A1A0657C08C8} = {2DCD2662-00A6-4C2F-A397-BDF0E833161B}
+		{FFF0A910-CFE1-421D-80C7-AA64B717839B} = {A03B14C3-6627-4E7E-B8D4-D3DA5DCCC7BC}
+		{4897AA61-5325-44BA-9DBE-D7F6F3756AEF} = {62E8B4D0-8345-4EC4-A4B6-9E978EB8176A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C2439DC-3A44-45C6-895D-30BF42015E9C}
+	EndGlobalSection
+EndGlobal

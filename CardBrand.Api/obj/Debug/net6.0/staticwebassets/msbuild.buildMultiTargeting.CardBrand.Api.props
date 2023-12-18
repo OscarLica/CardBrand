@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CardBrand.Api.props" />
+</Project>
